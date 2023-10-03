@@ -5,7 +5,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.US);
         double a=sc.nextDouble();
-        System.out.println(3<=a && a<=8);
+        System.out.println((-3<=a && a<=5) || (9<=a && a<=15));
         
     }
 }
